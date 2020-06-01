@@ -46,7 +46,7 @@ spring:
 eureka:
     client:
       serviceUrl:
-        defaultZone: http://registry-service-primary:8083/eureka/,http://registry-service-secondary:8084/eureka/,http://registry-service-tertiary:8085/eureka/
+        defaultZone: http://146.148.51.146:8083/eureka/
 management:
     endpoints:
         web:
