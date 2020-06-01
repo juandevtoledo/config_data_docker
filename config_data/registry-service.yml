@@ -38,7 +38,7 @@ eureka:
         registerWithEureka: false
         fetchRegistry: false
         serviceUrl:
-            defaultZone: http://registry-service-primary:8083/eureka/
+            defaultZone: http://registry-service-secondary:8084/eureka/,http://registry-service-tertiary:8085/eureka/
 ---
 spring:
     profiles: secondary
