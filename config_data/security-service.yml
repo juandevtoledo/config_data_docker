@@ -67,5 +67,5 @@ management:
 #REDIS : serverSession => 1 dia
 redis:
   serverHost: redis-service
-  serverPort: 8087
+  serverPort: 8088
   sessionSecondsLive: 86400
