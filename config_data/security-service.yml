@@ -41,6 +41,17 @@ spring:
             client:  
                 url: http://admin-service:8086
 # ===============================
+# rabbitmq / queues
+# ===============================
+    rabbitmq:
+        host: rabbitmq-service
+        port: 5672
+        username: guest
+        password: guest 
+# ===============================
+# EUREKA
+                
+# ===============================
 # EUREKA
 # ===============================
 eureka:
@@ -52,14 +63,6 @@ management:
         web:
             exposure:
                 include: "*" 
-# ===============================
-# rabbitmq / queues
-# ===============================
-    rabbitmq:
-        host: rabbitmq-service
-        port: 5672
-        username: guest
-        password: guest
 
 #REDIS : serverSession => 1 dia
 redis:
